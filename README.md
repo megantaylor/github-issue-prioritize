@@ -1,3 +1,30 @@
+# Instructions
+
+- clone or download repo
+- run `yarn install`
+- run `yarn start`
+- app runs at `http://localhost:3000/`
+- type a github api key into the form to see a list of repositories
+- click on a repo to see issues
+- drag and drop issues to reorder
+
+* if you refresh the page, issue re-ordering will persist, but if you select a new repo, issue re-ordering will be lost
+
+- run `yarn test` to run Jest snapshot test for Repo component
+
+# Discussion
+
+This is the first time I've used `styled-components` or written Jest tests. I had fun learning to implement them! I also learned how to persist state in localStorage by subscribing to the Redux store.
+
+There are so many things I would like to improve:
+
+- UI is usable, but pretty ugly, would love to actually design it
+- selected repo could move to the top of the repo list instead of just being highlighted
+- IssueList and RepoList components could just be one List component
+- keep track of when app is loading data and show a loading graphic
+- add pagination
+- more tests!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

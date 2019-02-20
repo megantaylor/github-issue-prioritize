@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders active repo correctly 1`] = `
+<div
+  className="active sc-bdVaJa epmeOv"
+  onClick={[Function]}
+>
+  <h3
+    className="sc-bwzfXH fHVcXE"
+  >
+    repo title
+  </h3>
+</div>
+`;
+
+exports[`renders inactive repo correctly 1`] = `
+<div
+  className="sc-bdVaJa epmeOv"
+  onClick={[Function]}
+>
+  <h3
+    className="sc-bwzfXH fHVcXE"
+  >
+    repo title
+  </h3>
+</div>
+`;
