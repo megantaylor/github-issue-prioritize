@@ -25,6 +25,8 @@ There are so many things I would like to improve:
 - add pagination
 - more tests!
 
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
